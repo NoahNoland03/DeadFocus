@@ -1,6 +1,6 @@
 # DeadFocus
 
-Dead Focus is a .NET MVC web appliction writen in C# on Visual Studio and currently stores data using SQLite.
+Dead Focus is a .NET MVC web appliction writen in C# on Visual Studio and currently stores data using PostgreSQL.
 This and open-source project that aims to help users stay focused and productive by minimizing distractions and staying on one track. 
 DeadFocus provides a set of tools and features designed record long and short term goals, track productivity and progess, and commit certain amounts of time to each goal base on its prioity in your life.
 
@@ -16,7 +16,7 @@ DeadFocus provides a set of tools and features designed record long and short te
 
  - .NET MVC Framework
  - C# Programming Language
- - SQLite Database
+ - PostgreSQL + Supabase cloud
  - Visual Studio IDE
  - HTML, CSS, JavaScript for front-end development
 	
