@@ -11,15 +11,11 @@ namespace DeadFocus.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Dashboard()
         {
-            return View();
+            return RedirectToAction("Index", "Dashboard");
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
+        
     }
 }
