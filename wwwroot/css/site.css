@@ -59,3 +59,20 @@ body {
    padding-right: 0;
     
 }
+
+.deadfocus-btn {
+    background-color: #d4af37;
+    color: white;
+    border: none;
+    
+}
+
+
+
+ 
+
+.deadfocus-btn:hover {
+     background-color: #c19b2f;
+     color: white;
+    
+}
