@@ -11,9 +11,9 @@ namespace DeadFocus.Controllers
             return View();
         }
 
-        public IActionResult Dashboard()
+        public IActionResult Privacy()
         {
-            return RedirectToAction("Index", "Dashboard");
+            return View();
         }
 
         

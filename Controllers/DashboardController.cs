@@ -8,5 +8,11 @@ namespace DeadFocus.Controllers
         {
             return View();
         }
+
+        public IActionResult AddGoal() 
+        {
+
+            return View();
+        }
     }
 }
