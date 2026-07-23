@@ -1,4 +1,6 @@
-﻿@{
+﻿@model DeadFocus.Models.Quotes
+
+@{
     ViewData["Title"] = "My Dashboard";
 }
 
@@ -12,7 +14,8 @@
 </style>
 
 <div class="text-center">
-    <h1 class="display-4">Welcome to your dashboard</h1>
+    <h1 class="display-4">@Model.Quote</h1>
+    <p>@Model.Author</p>
     
 </div>
 

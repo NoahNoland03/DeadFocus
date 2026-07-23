@@ -9,7 +9,7 @@ namespace DeadFocus.Models
         {
         }
         public DbSet<Users> Users { get; set; }
-        public DbSet<Goals> Products { get; set; }
+        public DbSet<Goals> Goals { get; set; }
         public DbSet<GoalProgress> GoalProgress { get; set; }
         public DbSet<GoalType> GoalType { get; set; }
         public DbSet<Quotes> Quotes { get; set; }
